@@ -5,7 +5,7 @@ import { GiftGrid } from './Components/GiftGrid';
 const GifExpertApp = ()=>{
    // const categorias = ['Dragon ball','One punch','Naruto'];
   
-   const [categories, setCategories] = useState(['Goku']);
+   const [categories, setCategories] = useState(['naruto']);
    /*
    const add = ()=>{
 
@@ -14,7 +14,7 @@ const GifExpertApp = ()=>{
    }*/
         return(
             <>
-            <h2>Sistema Gif</h2>
+            <h2>Titulo en proceso...</h2>
             <AddCategory setCategories= {setCategories} />
 
             <hr />
