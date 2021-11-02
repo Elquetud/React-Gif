@@ -1,11 +1,13 @@
-import {useEffect, useState } from "react"
+import {useEffect, useState } from "react";
 import {GetGift} from '../helpers/GetGift';
+
 
 export const UseFetchGifs = (category)=>{
     const [state, setstate] = useState({
         data:[],
         loading:true
     });
+
     useEffect(() => {
 
             GetGift(category)

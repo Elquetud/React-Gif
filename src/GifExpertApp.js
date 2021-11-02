@@ -14,7 +14,7 @@ const GifExpertApp = ()=>{
    }*/
         return(
             <>
-            <h2>GiftExpertApp</h2>
+            <h2>Sistema Gif</h2>
             <AddCategory setCategories= {setCategories} />
 
             <hr />
